@@ -1,10 +1,10 @@
 terraform {
-  backend "remote" {
-    organization = "the_hub"
-    workspaces {
-      name = "border"
-    }
-  }
+  # backend "remote" {
+   # organization = "the_hub"
+   # workspaces {
+    #  name = "border"
+   # }
+ # }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
